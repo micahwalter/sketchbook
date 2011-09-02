@@ -1,5 +1,5 @@
 void setup() {
-  size(6000, 4800);
+  size(700, 483);
 }
 
 void draw() {
@@ -15,9 +15,4 @@ for (int i = 0; i < width; i++) {
   line(i, 0, i, height);
 }
 
-}
-
-void mousePressed() 
-{
-  save("sinewave_ii.tif");
 }
