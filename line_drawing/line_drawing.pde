@@ -2,7 +2,7 @@ float[][] a=new float[40][2];
 boolean amLooping;
 boolean testNoLoopRedraw = false;
 void setup() {
-   size(1680,1050); 
+   size(700,483); 
    background(0);
 }
 
@@ -15,8 +15,4 @@ void draw(){
     line(a[i][0],a[i][1],a[i][0]+=(a[i-1][0]-a[i][0])/i,a[i][1]+=(a[i-1][1]-a[i][1])/i);
   }
 
-}
-
-void mousePressed() {
- save("webe.tif");
 }
